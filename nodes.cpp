@@ -6,7 +6,11 @@
 // nodes.cpp
 
 #include <opencv2/opencv.hpp>
+#if __has_include(<cv_bridge/cv_bridge.h>)
 #include <cv_bridge/cv_bridge.h>
+#else
+#include <cv_bridge/cv_bridge.hpp>
+#endif
 #include <sensor_msgs/msg/image.hpp>
 #include <string>
 #include <stdexcept>
