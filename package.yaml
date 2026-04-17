@@ -1,0 +1,12 @@
+name: "vision_bridge"
+version: "0.1.0"
+description: "Vision bridge package for ROS 2 and OpenCV"
+maintainers:
+  - name: "fins"
+    email: "fins@sjtu.edu.cn"
+depends:
+  OpenCV: "system"
+  sensor_msgs: "system"
+  cv_bridge: "system"
+licenses:
+  - "MIT"
