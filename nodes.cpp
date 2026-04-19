@@ -79,4 +79,4 @@ static auto ros_to_opencv = fins::Function("ROS2OpenCV",
   .with_category("Vision>Bridge")
   .build();
   
-DEFINE_PLUGIN_ENTRY()
+DEFINE_PLUGIN_ENTRY(fins::STATELESS)
